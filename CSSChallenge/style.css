@@ -1,0 +1,104 @@
+html, 
+body{
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar { 
+    display: none;
+    background-color: whitesmoke;
+  }
+
+.container1{
+    background: url('https://images.unsplash.com/photo-1489417139533-915815598d31?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=810&q=80');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+#logo{
+    width: 10%;
+    opacity: 0.5;
+    border-radius: 50%;
+    margin: 5% 0 0 5%;
+}
+
+#name{
+    color: whitesmoke;
+    font-size: 3rem;
+    opacity: 0.7; 
+    text-shadow:  3px 7px 3px  black;
+}
+
+.containerLogo{
+    margin-left: 5%;
+}
+
+.container2{
+    display: flex;
+    width: 100%;
+    margin-top: 2%;
+}
+
+#imgcontainer2{
+    width: 32rem;
+}
+
+.texto{
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 1.1rem;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+.carousel{
+    max-width: 45%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.carousel-control-prev-icon{
+    background-image: url(./assets/arrow-left-solid.svg)  !important;
+}
+
+.carousel-control-next-icon{
+    background-image: url(./assets/arrow-right-solid.svg) !important;
+}
+
+h2{
+    text-align: center;
+    font-size: 5rem !important;
+    margin-top: 3% !important;
+    margin-bottom: 3% !important;
+}
+
+#compra{
+    display: flex;
+    justify-content: center;
+}
+
+#boton{
+    border-radius: 10px;
+    background-color: whitesmoke;
+    margin-top: 2%;
+}
+
+#boton:hover{
+    background-color: lightgray;
+}
+
+footer a{
+    font-size: 2rem;
+    color: gray;
+}
+
+footer{
+    margin-top: 8%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-around;
+}
